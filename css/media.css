@@ -1,0 +1,468 @@
+/* @media (max-width: 1440px) {} */
+/* @media (max-width: 1366px) {} */
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+/* @media (max-width: 1140px) {} */
+@media (max-width: 1024px) {
+    /* films start */
+
+    .films__cards{
+        row-gap: 40px;
+    }
+
+   .films__card{
+       max-width: none;
+       width: 48%;
+   }
+
+   .films__card-image{
+       width: 100%;
+    
+   }
+
+    /* films end */
+
+    /* Collections start */
+
+
+    .collection__box{
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        
+    }
+   
+    .collection__item{
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        
+    }
+
+    /* Collections end */
+}
+@media (max-width: 992px) {
+
+    .banner__img{
+        object-position: 70% 0;
+    }
+    /* premier start */
+
+    .premier__video{
+        width: 100%;
+    }
+
+    .premier__content{
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .premier__content .container{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .premier__content-txt{
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    .premier__content-btn{
+        margin: 0 auto;
+    }
+
+    /* primier end */
+}
+@media (max-width: 768px) {
+    /* Header start */
+
+    
+    .header__nav{
+        padding: 20px 0;
+    }
+
+    .header__list{
+      display: none;
+    }
+
+    .header__menu {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .header__line {
+        width: 100%;
+        height: 2px;
+        background-color: var(--text);
+        position: relative;
+    }
+
+    .header__line::before{
+        content: '';
+        position: absolute;
+        top:-10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--text);
+    }
+
+
+    .header__line::after{
+        content: '';
+        position: absolute;
+        top:10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--text);
+    }
+    /* Header end */
+
+    /* Premier start */
+
+    .premier__content-img{
+        width: 45%;
+    }
+
+
+    .premier__content-txt{
+        font-size: 12px;
+    }
+
+
+    /* Premier end */
+
+    /* Series start */
+  
+    .md{
+        grid-column: 4 span;
+        grid-row: 1 span;
+    }
+
+    .md .series__content-img{
+        object-position: 0 46%;
+    }
+
+    .sm{
+        grid-column: 2 span;
+    }
+     
+    /* Series end */
+}
+@media (max-width: 684px) {
+    /* Banner start */
+
+
+    .banner__img{
+        object-position: 75% 0;
+    }
+
+
+    .premier__content-txt{
+        display: none;
+    }
+
+    .premier__content-img{
+        width: 70%;
+    }
+
+    /*  */
+
+
+    /* Banner end */
+}
+/* @media (max-width: 667px) {} */
+@media (max-width: 576px) {
+
+    /* Banner start */
+
+     .banner__title {
+         font-size: 42px;
+     }
+
+     .banner__txt{
+         font-size: 14px;
+     }
+       
+    /* Banner end */
+
+    /* Films start */
+
+    .films__card{
+        width: 100%;
+    }
+
+     .films__card .films__card-img3{
+         object-position: 0 -100px;
+     }
+
+    .premier__content-txt{
+        display: none;
+    }
+
+    
+
+    .films__card-txt{
+        text-align: center;
+    }
+
+
+    /* Films end */
+
+
+    /* Footer start */
+
+    .footer__container{
+        flex-direction: column;
+    } 
+
+    .footer__app{
+        margin-bottom: 20px;
+    }
+
+    .footer__txt{
+        font-size: 14px;
+    }
+
+    /* Footer end */
+}
+@media (max-width: 414px) {
+    
+    /* Header start */
+
+     .header__logo img{
+         width: 45%;
+     }
+
+    /* Header end*/
+
+    /* Banner start */
+
+    .banner__title{
+        font-size: 38px;
+    }
+
+    .banner__txt{
+        font-size: 14px;
+    }
+
+    .btn{
+        max-width: 140px;
+        width: 100%;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    .banner__btns{
+        justify-content: center;
+    }
+
+    /* Banner end */
+
+    /* Films start */
+
+    .title{
+        font-size: 28px;
+        margin: 0 auto 55px;
+    }
+
+    .films__card .films__card-img3{
+        object-position: 0 -40px;
+    }
+
+    /* Films end */
+
+
+    /* Premier start */
+
+    .premier__content-img{
+        width: 60%;
+    
+    }
+
+    .premier__content-btn{
+        max-width: 120px;
+        width: 100%;
+        font-size: 12px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    /* Premier end */
+
+
+    /* Series start */
+
+    .series__content-img{
+        object-position: 0 0;
+    }
+
+    .series__content-txt{
+        font-size: 14px;
+    }
+
+    .sm{
+        grid-column: 4 span;
+    }
+
+    /* Series end */
+}
+/* @media (max-width: 412px) {} */
+@media (max-width: 376px) {
+
+  /* Banner start */
+  
+  .banner__title {
+      font-size: 36px;
+  }
+
+  .banner__txt{
+      font-size: 12px;
+  }
+
+  /* Banner end */
+
+  
+
+  .btn{
+    max-width: 120px;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.title{
+    font-size: 25px;
+}
+
+/* Films start */
+
+.films__card .films__card-img3{
+    object-position: 0 -50px;
+}
+
+/* Films end */
+
+ /* Primier start */
+
+ .premier__content-img{
+     margin-bottom: 20px;
+ }
+  
+
+ /* Primier end */
+
+  /* Series start */
+
+  .series__content-title{
+    font-size: 36px;
+  }
+
+.series__content-txt {
+    font-size: 12px;
+}
+   
+
+  /* Series end */
+
+  /* Footer start */
+
+  .footer__txt{
+      font-size: 12px;
+  }
+   
+  /* Footer end */
+
+}
+@media (max-width: 320px) {
+
+
+    /* Ads start */
+
+    .ads{
+        padding: 10px 0;
+    }
+
+    .ads__link i{
+        font-size: 40px;
+    }
+
+   .ads__span{
+       font-size: 11px;
+   }
+
+    /* Ads end */
+
+    /* Header start */
+
+    .header__logo{
+        width: 50%;
+    }
+
+    .header__nav{
+        padding: 14px 0;
+    }
+
+    /* Header end */
+
+   /* Banner start */
+
+   .banner__title{
+       font-size: 30px;
+   }
+
+   .banner__txt{
+       font-size: 12px;
+   }
+
+   .btn{
+       max-width: 100px;
+       font-size: 10px;
+       padding: 10px 0;
+   }
+
+   .title{
+       font-size: 24px;
+   }
+
+ /* Banner end */
+
+
+   /* Premier start */
+
+   .premier__content-img{
+       margin-bottom: 20px;
+   }
+
+
+   /* Premier end */
+
+
+   /* Series start */
+  
+   .series__content-title{
+       font-size: 28px;
+   }
+
+   .series__content-txt{
+      font-size: 10px;
+   }
+
+   
+
+   /* Series end */
+
+
+   /* Footer start */
+
+  .footer__txt{
+      font-size: 12px;
+  }
+
+   /* Footer end */
+
+
+  
+
+}
